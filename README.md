@@ -13,3 +13,4 @@ victor_valuation(ttm_cashflow, r1, r2, discount_rate, total_debt, shares_outstan
     value_per_share_fcf = equity_value / shares_outstanding
     value_per_share_eps = eps_iv
     combined_value_per_share = (2/3) * value_per_share_fcf + (1/3) * value_per_share_eps
+current valuation uses most recent quarterly statements and  forward eps and pe while the valuation before the most recent earnings uses the trailing pe and eps and the quarterly statements before the most recent one. graphed with matplotlib.
